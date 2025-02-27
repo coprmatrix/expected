@@ -35,8 +35,7 @@ Single header implementation of std::expected with functional-style extensions.
 
 %package devel
 Summary: Development files for %{name}
-Provides: %{name}-static = %{version}
-Provides: cmake(tl-expected)
+Provides: %{name}-static = %{version} , cmake(tl-expected)
 
 %description devel
 Header-only %{summary}.
